@@ -27,6 +27,8 @@ export const navSetActive = (href: string) =>
     modifyMutable(
         navSlice[0] as NavType,
         produce((state: NavType) => {
-            state.navigation.routes.map((s) => s.href === href);
+            state.navigation.routes.forEach((route) => {
+                route.active = route.href === href;
+            });
         }),
     );

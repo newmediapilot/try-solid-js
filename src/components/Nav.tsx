@@ -10,7 +10,7 @@ const Nav: Component<{routes:RouteType[]}> = ({routes}) => {
             {routes.map(({href, label, active}) => (
                 <a class={[
                     "pr-[10px]",
-                    active ? "active" : "",
+                    active ? "underline" : "",
                 ].join(" ")} href={href} onClick={() => onClick(href)}>
                     {label}
                 </a>
