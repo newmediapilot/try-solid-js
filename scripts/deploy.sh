@@ -77,4 +77,4 @@ deploy
 
 echo "[deploy-preview.sh] "
 echo "[deploy-preview.sh] Build complete..."
-echo "[deploy-preview.sh] https://newmediapilot.github.io/npm-vite-template-solid/"
+echo "[deploy-preview.sh] https://newmediapilot.github.io/try-solid-js/"

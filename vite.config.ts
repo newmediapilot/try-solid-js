@@ -6,6 +6,7 @@ import tailwindcss from '@tailwindcss/vite';
 import path from 'path'
 
 export default defineConfig({
+  base: '/try-solid-js/',
   plugins: [
       tailwindcss(),
       devtools(),

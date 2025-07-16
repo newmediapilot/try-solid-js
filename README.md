@@ -2,6 +2,10 @@
 
 Trying out SolidJS @ https://www.solidjs.com/guides/getting-started#try-solid
 
+### Live Demo
+
+https://newmediapilot.github.io/try-solid-js/
+
 ## Dev
 
 ```shell
